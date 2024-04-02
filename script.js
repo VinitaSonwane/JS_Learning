@@ -221,7 +221,7 @@ let username = "@" + fullName1 + fullName1.length;
 console.log(username); */
 
 
-//functions in JS
+/*//functions in JS
 
 function myFunction() {
     console.log("welcome to gcoeara");
@@ -237,4 +237,57 @@ function sum(x, y) {
     return s;
 }
 let val = sum(3, 4);
-console.log(val);
+console.log(val); */
+
+
+//ArrowFuntion
+//sum function 
+/*function sum(a, b) {
+    return a + b;
+}
+const arrowSum = (a, b) => {
+    console.log(a + b);
+};
+//mul function
+function mul(a, b) {
+    return a * b;
+}
+const arrowMul = (a, b) => {
+    console.log(a * b);
+}; */
+
+
+
+/*//count vowels in a given string
+function countVowels(str) {
+    let count = 0;
+    for (const char of str) {
+        if (char === "a" || char === "e" || char == "i" || char === "o" || char === "u") {
+            count++;
+        }
+
+    }
+    return count;
+} */
+
+
+
+// forEach loop in Arrays 
+function abc() {
+    console.log("hello");
+}
+
+function myFunc(abc) {
+    return abc;
+
+}
+
+let arr = ["pune", "delhi", "mumbai"];
+
+/*arr.forEach(function printVal(val) {
+    console.log(val);
+}); */
+
+arr.forEach((val, idx, arr) => {
+    console.log(val.toUpperCase(), idx, arr);
+});
