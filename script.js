@@ -272,7 +272,7 @@ function countVowels(str) {
 
 
 
-// forEach loop in Arrays 
+/*// forEach loop in Arrays 
 function abc() {
     console.log("hello");
 }
@@ -288,6 +288,37 @@ let arr = ["pune", "delhi", "mumbai"];
     console.log(val);
 }); */
 
-arr.forEach((val, idx, arr) => {
+/*arr.forEach((val, idx, arr) => {
     console.log(val.toUpperCase(), idx, arr);
+}); */
+
+
+//***Question***
+//For a given array numbers, print the square of each value using forEach loop.
+
+let nums = [1, 2, 3, 4, 5, 6];
+nums.forEach((num) => {
+    console.log(num * num);
+})
+
+//Map Method 
+let newArr = nums.map((val) => {
+    return val;
+})
+console.log(newArr);
+
+
+//Filter Method
+let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+let evenArr = arr.filter((val) => {
+    return val % 2 === 0;
 });
+console.log(evenArr);
+
+//Reduce Method
+
+const output = arr.reduce((res, curr) => {
+    return res + curr;
+});
+
+console.log(output);
