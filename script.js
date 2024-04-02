@@ -174,7 +174,7 @@ str.toUpperCase()
 str.toLowerCase()
 str.trim() // removes whitespaces of starting and ending str */
 
-let str1 = "gcoeara";
+/*let str1 = "gcoeara";
 //let newStr1 = str1.toUpperCase();      // for upper case 
 let newStr1 = str1.toLowerCase(); // for lower case 
 console.log(str);
@@ -216,6 +216,25 @@ E.g user name = "vinitasonwane", username should be "@vinitasonwane123"*/
 
 
 
-let fullName1 = prompt("enter your fullname without spaces");
+/*let fullName1 = prompt("enter your fullname without spaces");
 let username = "@" + fullName1 + fullName1.length;
-console.log(username);
+console.log(username); */
+
+
+//functions in JS
+
+function myFunction() {
+    console.log("welcome to gcoeara");
+    console.log("we are learning JS ");
+}
+myFunction();
+
+
+
+//calculaete the2 numbers sum
+function sum(x, y) {
+    s = x + y;
+    return s;
+}
+let val = sum(3, 4);
+console.log(val);
