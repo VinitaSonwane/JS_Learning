@@ -19,7 +19,7 @@ let firstEl = document.querySelector("#id"); //1st element
 let allEle = document.querySelectorAll(".myClass"); //all elements
 console.dir(allEle);
 
-let elements = document.querySelector("div");*/
+let elements = document.querySelector("div");
 
 let h2 = document.querySelector("h2");
 console.dir(h2.innerText);
@@ -37,3 +37,34 @@ for (div of divs) {
 /*divs[0].innerText = "new unique value 1 ";
 divs[1].innerText = "new unique value 2 ";
 divs[2].innerText = "new unique value 3 ";*/
+
+
+/*let div = document.querySelector("div");
+console.log(div);
+
+let id = div.getAttribute("id");
+console.log(id);
+
+let name = div.getAttribute("name");
+console.log(name);
+
+let para = document.querySelector("p");
+//console.log(para.getAttribute("class"));
+console.log(para.setAttribute("class", "new class"));
+
+div.style.backgroundColor = "green";
+div.style.fontSize = "20px";
+div.style.visibility = "hidden";*/
+
+
+
+let newBtn = document.createElement("button");
+newBtn.innerText = "Click me!";
+console.log(newBtn);
+
+let div = document.querySelector("div");
+//div.append(newBtn);
+//div.prepend(newBtn);
+//div.before(newBtn);
+div.after(newBtn);
+newBtn.remove();

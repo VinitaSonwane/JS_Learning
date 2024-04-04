@@ -14,9 +14,9 @@ button {
 
 */
 
-.box {
-    height: 100px;
-    width: 100px;
+#box {
+    height: 300px;
+    width: 200px;
     border: 1px solid black;
     margin: 5px;
     text-align: center;
