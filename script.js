@@ -58,7 +58,7 @@ div.style.visibility = "hidden";*/
 
 
 
-let newBtn = document.createElement("button");
+/*let newBtn = document.createElement("button");
 newBtn.innerText = "Click me!";
 console.log(newBtn);
 
@@ -67,4 +67,79 @@ let div = document.querySelector("div");
 //div.prepend(newBtn);
 //div.before(newBtn);
 div.after(newBtn);
-newBtn.remove();
+newBtn.remove(); */
+
+
+/*//Event in JS
+let div = document.querySelector("div");
+document.addEventListener('DOMContentLoaded', (event) => {
+    let btn1 = document.querySelector("#btn1");
+
+
+    /*btn1.onclick = () => {
+        console.log("btn1 was clicked ");
+        leta = 25;
+        a++;
+        console.log(a); //26
+    }; */
+
+/* btn1.onclick = (evt) => {
+    console.log(evt);
+    console.log(evt.type);
+    console.log(evt.target);
+    console.log(evt.clientX, evt.clientY);
+}
+
+let div = document.querySelector("div");
+div.onmouseover = (evt) => {
+    console.log("you are inside div");
+};*/
+
+
+/*btn1.addEventListener("click", (evt) => {
+    console.log("button1 was cliacked  ");
+    console.log(evt);
+    console.log(evt.target);
+}); */
+
+
+/*btn1.addEventListener("click", () => {
+    console.log("button1 was cliacked - handler1");
+});
+
+btn1.addEventListener("click", () => {
+    console.log("button1 was cliacked - handler2");
+});
+
+const handler3 = () => {
+    console.log("button1 was cliacked - handler3");
+};
+
+btn1.addEventListener("click", handler3)
+
+btn1.addEventListener("click", () => {
+    console.log("button1 was cliacked - handler4");
+});
+
+btn1.removeEventListener("click", handler3);
+}); */
+
+
+
+//Practice Question
+//create a toggle buttonthat changes the screen to dark-modewhen cliced& light-mode when click again
+
+let modeBtn = document.querySelector("#mode");
+let currMode = "light";
+
+modeBtn.addEventListener("click", () => {
+    if (currMode == "light") {
+        currMode = "dark";
+        document.querySelector("body").style.background = "black";
+    } else {
+        currMode = "light";
+        document.querySelector("body").style.background = "white";
+    }
+
+    console.log(currMode);
+});
