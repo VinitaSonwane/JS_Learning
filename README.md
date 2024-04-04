@@ -21,7 +21,7 @@ Welcome to the JavaScript Journey, where you'll embark on an exciting adventure 
 
 Ready to embark on your JavaScript journey? Here's how to get started:
 
-1. **Clone the Repository**: `git clone https://github.com/VinitaSonwane/Javascript_Learning.git`
+1. **Clone the Repository**: `git clone https://github.com/VinitaSonwane/JSt_Learning.git`
 2. **Take on Challenges**: Head over to the `challenges` directory to tackle our coding challenges and projects.
 
 
