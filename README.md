@@ -21,7 +21,7 @@ Welcome to the JavaScript Journey, where you'll embark on an exciting adventure 
 
 Ready to embark on your JavaScript journey? Here's how to get started:
 
-1. **Clone the Repository**: `git clone https://github.com/VinitaSonwane/JSt_Learning.git`
+1. **Clone the Repository**: `git clone https://github.com/VinitaSonwane/JS_Learning.git`
 2. **Take on Challenges**: Head over to the `challenges` directory to tackle our coding challenges and projects.
 
 
@@ -36,3 +36,4 @@ Ready to embark on your JavaScript journey? Here's how to get started:
 - Asynchronous JavaScript (Promises, Async/Await)
 - ES6+ Features (Arrow Functions, Template Literals, Destructuring, etc.)
 
+This repository is not just a learning hub; it's a launchpad to JavaScript mastery. Bon voyage! 🚀
